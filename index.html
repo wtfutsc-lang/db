@@ -1,4 +1,39 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Добавить пользователя</title>
+    <limk rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+    <div class="card">
+        <h1>Добавить пользователя</h1>
+        
+        <form id="userForm">
+            <lable>Имя</lable>
+            <input name="name" required />
+
+            <lable>Фамилия</lable>
+            <input name="lastname" required />
+
+            <lable>city</lable>
+            <input name="city" required />
+
+            <lable>Дата рождения</lable>
+            <input name="birthday" type="date" required />
+
+            <lable>phone_number</lable>
+            <input name="phone_number" type="tel" required />
+
+            <lable>ID подгрупыы</lable>
+            <input name="undergroups_id" type="number" min="1" step="1" required />
+
+            <button type="submit">Cохранить</button>
+        </form>
+
+        <pre id="out"></pre>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
 </html>
