@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(231, 255, 144);
+    justify-content: center; 
+    align-items: center;
+}
+
+.card form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
